@@ -1,0 +1,100 @@
+  818  2023-01-18 13:58:58 sudo rm -vf /var/lib/apt/lists/*
+  819  2023-01-18 13:58:58 sudo apt-get update
+  820  2023-01-18 13:58:58 sudo apt-get install liberror-perl
+  821  2023-01-18 13:58:58 sudo apt-get install aptitude
+  822  2023-01-18 13:58:58 sudo apt-get install liberror-perl
+  823  2023-01-18 13:58:58 sudo aptitude install git
+  824  2023-01-18 13:58:58 Y
+  825  2023-01-18 13:58:58 n
+  826  2023-01-18 13:58:58 sudo aptitude install git
+  827  2023-01-18 13:58:58 sudo apt-get install liberror-perl
+  828  2023-01-18 13:59:03 git --version
+  829  2023-01-18 14:01:05 sudo apt-get install ssh
+  830  2023-01-18 14:01:46 ssh-keygen -t rsa
+  831  2023-01-18 14:04:10 ssh-add
+  832  2023-01-18 20:35:28 git config --list
+  833  2023-01-18 20:47:56 git config --global user.name “Liuba Kundas”
+  834  2023-01-18 20:48:08 git config --global user.email “kundasl1@gmail.com”
+  835  2023-01-18 20:48:15 git config --list
+  836  2023-01-18 20:48:25 git config --global color.ui auto
+  837  2023-01-18 20:48:28 git config --list
+  838  2023-01-18 20:52:52 mkdir project_animals
+  839  2023-01-18 20:55:42 cd project_animals
+  840  2023-01-18 21:01:55 cat > pets
+  841  2023-01-18 21:04:16 ls
+  842  2023-01-18 21:04:39 cat pets
+  843  2023-01-18 21:09:55 cat > pack_animals
+  844  2023-01-18 21:15:41 cat pets pack_animals > animals
+  845  2023-01-18 21:18:19 cat animals
+  846  2023-01-18 21:25:27 mv animals friends_of_human
+  847  2023-01-18 21:26:56 ls
+  848  2023-01-18 21:34:20 rm friends_of_human 
+  849  2023-01-18 21:34:23 ls
+  850  2023-01-18 21:35:41 ls -la
+  851  2023-01-18 21:36:01 git add .
+  852  2023-01-18 21:37:44 git commit -m "created two files"
+  853  2023-01-18 21:44:06 cat pets pack_animals > animals
+  854  2023-01-18 21:44:37 git add animals
+  855  2023-01-18 21:46:44 git commit -m "merged two files"
+  856  2023-01-18 21:47:21 mv animals friends_of_human
+  857  2023-01-18 21:49:13 git commit -m "rename file"
+  858  2023-01-18 21:52:26 git add/rm friends_of_human
+  859  2023-01-18 21:52:42 ls -la
+  860  2023-01-18 21:55:15 git commit -am "rename file"
+  861  2023-01-18 22:00:59 git diff --cached
+  862  2023-01-18 22:01:39 ls -la
+  863  2023-01-19 00:18:27 git log
+  864  2023-01-19 00:29:16 git log -p
+  865  2023-01-19 00:30:32 ls -la
+  866  2023-01-19 00:30:43 cat friends_of_human 
+  867  2023-01-19 00:32:49 nano friends_of_human
+  868  2023-01-19 00:35:54 cat friends_of_human 
+  869  2023-01-19 00:36:03 cat friends_of_human
+  870  2023-01-19 00:36:40 mkdir animals
+  871  2023-01-19 00:39:02 mv friends_of_human /animals/
+  872  2023-01-19 00:39:22 ls
+  873  2023-01-19 00:40:00 pwd
+  874  2023-01-19 00:40:36 mv friends_of_human /home/user/project_animals/animals/
+  875  2023-01-19 00:42:11 git commit -am "move file in new directory"
+  876  2023-01-19 00:43:30 git add animals/friends_of_human
+  877  2023-01-19 00:43:38 git status
+  878  2023-01-19 00:43:46 git log
+  879  2023-01-19 00:44:11 git commit -am "move file in new directory"
+  880  2023-01-19 00:57:35 git log
+  881  2023-01-19 01:05:49 ls -la
+  882  2023-01-19 19:16:51 sudo apt-get update
+  883  2023-01-19 19:18:21 sudo apt-get upgrade
+  884  2023-01-19 19:33:37 sudo apt-get install mysql-server
+  885  2023-01-19 19:37:19 ps aux | grep mysqld
+  886  2023-01-19 19:37:59 sudo service mysql start
+  887  2023-01-19 19:38:09 ls
+  888  2023-01-19 19:38:14 ls -la
+  889  2023-01-19 19:40:08 mysql-u root -p
+  890  2023-01-19 19:42:05 systemctl status mysql
+  891  2023-01-19 19:51:02 sudo apt-get update
+  892  2023-01-19 19:55:03 systemctl status mysql
+  893  2023-01-19 19:58:04 mysql_secure_installation
+  894  2023-01-19 19:59:43 mysqladmin -u root -p version
+  895  2023-01-19 20:00:44 sudo mysql_secure_installation
+  896  2023-01-19 20:02:57 mysqladmin -u root -p version
+  897  2023-01-19 20:03:13 sudo mysqladmin -u root -p version
+  898  2023-01-19 20:04:52 systemctl status mysql
+  899  2023-01-19 20:05:51 apt download nginx
+  900  2023-01-19 20:05:56 ls
+  901  2023-01-19 20:06:51 git commit -am "download nginx"
+  902  2023-01-19 20:07:11 dit add .
+  903  2023-01-19 20:07:20 git add .
+  904  2023-01-19 20:07:30 git commit -m "download nginx"
+  905  2023-01-19 20:07:47 sudo dpkg -i nginx_1.20.2-1~focal_amd64.deb
+  906  2023-01-19 20:08:10 ls
+  907  2023-01-19 20:08:29 sudo dpkg -i nginx_1.22.2-1~focal_amd64.deb
+  908  2023-01-19 20:08:59 sudo dpkg -i nginx_1.22.1-1~focal_amd64.deb
+  909  2023-01-19 20:09:08 ls
+  910* 2023-01-19 20:10:11 hist
+  911  2023-01-19 20:10:19 ls -la
+  912  2023-01-19 22:17:13 export HISTTIMEFORMAT='%F %T '
+  913  2023-01-19 22:17:46 history 85
+  914  2023-01-19 22:18:47 history 90
+  915  2023-01-19 22:19:11 history 100
+  916  2023-01-19 22:19:41 history
+  917  2023-01-19 22:21:14 history 100 > history_backup
